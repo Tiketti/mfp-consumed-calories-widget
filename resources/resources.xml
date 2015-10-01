@@ -1,0 +1,7 @@
+<resources>
+    <string id="AppName">MyFitnessPal</string>
+    <bitmap id="LauncherIcon" filename="images/launcher_icon.png" />
+    <bitmap id="mfp_large" filename="images/mfp_large.png" />
+    <bitmap id="mfp_128" filename="images/mfp_128.png" />
+    <bitmap id="mfp_32" filename="images/mfp_32.png" />
+</resources>

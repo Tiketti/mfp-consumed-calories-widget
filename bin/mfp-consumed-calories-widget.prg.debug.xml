@@ -1,35 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetApp.mc" lineNum="15" pc="268435464" symbol="getInitialView"/>
-<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="10" pc="268435505" symbol="onLayout"/>
-<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="30" pc="268435548" symbol="onUpdate"/>
-<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="31" pc="268435571" symbol="onUpdate"/>
-<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="32" pc="268435608" symbol="onUpdate"/>
-<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="34" pc="268435650" symbol="onUpdate"/>
-<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="38" pc="268435696" symbol="onUpdate"/>
-<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="42" pc="268435719" symbol="handleResponse"/>
-<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="43" pc="268435730" symbol="handleResponse"/>
-<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="44" pc="268435756" symbol="handleResponse"/>
-<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="45" pc="268435788" symbol="handleResponse"/>
-<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="46" pc="268435832" symbol="handleResponse"/>
-<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="47" pc="268435882" symbol="handleResponse"/>
-<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="49" pc="268435932" symbol="handleResponse"/>
-<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="51" pc="268435966" symbol="handleResponse"/>
-<entry filename="Rez" lineNum="5" pc="268436453" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268436404" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="11" pc="268436413" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="12" pc="268436422" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="13" pc="268436431" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="14" pc="268436440" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="23" pc="268435992" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="24" pc="268436006" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="25" pc="268436103" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="26" pc="268436118" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="27" pc="268436170" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="28" pc="268436216" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="29" pc="268436304" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="30" pc="268436356" symbol="MainLayout"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetApp.mc" lineNum="18" pc="268435464" symbol="getInitialView"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetApp.mc" lineNum="19" pc="268435494" symbol="getInitialView"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetApp.mc" lineNum="26" pc="268435551" symbol="onKey"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetApp.mc" lineNum="27" pc="268435578" symbol="onKey"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetApp.mc" lineNum="28" pc="268435596" symbol="onKey"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetApp.mc" lineNum="30" pc="268435602" symbol="onKey"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="10" pc="268435609" symbol="onLayout"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="17" pc="268435649" symbol="onShow"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="18" pc="268435672" symbol="onShow"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="22" pc="268435687" symbol="fetchData"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="23" pc="268435704" symbol="fetchData"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="24" pc="268435721" symbol="fetchData"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="29" pc="268435763" symbol="onUpdate"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="32" pc="268435786" symbol="onUpdate"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="36" pc="268435809" symbol="handleResponse"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="37" pc="268435820" symbol="handleResponse"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="38" pc="268435846" symbol="handleResponse"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="39" pc="268435878" symbol="handleResponse"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="40" pc="268435922" symbol="handleResponse"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="41" pc="268435972" symbol="handleResponse"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="43" pc="268436022" symbol="handleResponse"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="44" pc="268436056" symbol="handleResponse"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="46" pc="268436085" symbol="handleResponse"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="47" pc="268436108" symbol="handleResponse"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="48" pc="268436125" symbol="handleResponse"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="59" pc="268436157" symbol="setMainText"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="60" pc="268436189" symbol="setMainText"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="61" pc="268436223" symbol="setMainText"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="65" pc="268436242" symbol="setErrorMessage"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="66" pc="268436274" symbol="setErrorMessage"/>
+<entry filename="/Users/perttu/dev/eclipse/mfp-consumed-calories-widget/source/mfpconsumedcalorieswidgetView.mc" lineNum="67" pc="268436308" symbol="setErrorMessage"/>
+<entry filename="Rez" lineNum="5" pc="268436990" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268436941" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="11" pc="268436950" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="12" pc="268436959" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="13" pc="268436968" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="14" pc="268436977" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="23" pc="268436328" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="24" pc="268436342" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="25" pc="268436439" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="26" pc="268436454" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="27" pc="268436506" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="28" pc="268436552" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="29" pc="268436640" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="30" pc="268436692" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="31" pc="268436706" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="32" pc="268436816" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="33" pc="268436831" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="34" pc="268436883" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389359" symbol="&lt;gre&gt;"/>
@@ -81,7 +101,7 @@
 <entry id="8389548" symbol="&lt;tha&gt;"/>
 <entry field="true" id="8388807" symbol="BLE_REQUEST_TOO_LARGE"/>
 <entry id="8388819" method="true" symbol="makeImageRequest"/>
-<entry id="10" module="true" symbol="Menus"/>
+<entry id="12" module="true" symbol="Menus"/>
 <entry id="3" module="true" symbol="globals_Rez_Drawables"/>
 <entry id="8388630" module="true" symbol="Toybox_Position"/>
 <entry id="8389354" symbol="&lt;dut&gt;"/>
@@ -129,7 +149,7 @@
 <entry id="8388659" method="true" symbol="testAbs"/>
 <entry field="true" id="8388989" symbol="dutyCycle"/>
 <entry id="8389043" object="true" symbol="ProgressBar"/>
-<entry field="true" id="18" symbol="AppName"/>
+<entry field="true" id="20" symbol="AppName"/>
 <entry field="true" id="8388927" symbol="SECONDS_PER_YEAR"/>
 <entry id="8389418" object="true" symbol="CommonData"/>
 <entry id="8389114" method="true" symbol="getType"/>
@@ -148,7 +168,7 @@
 <entry id="8389184" method="true" symbol="drawLine"/>
 <entry field="true" id="8389250" symbol="timestamp"/>
 <entry id="8388877" method="true" symbol="createSession"/>
-<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry field="true" id="15" symbol="LauncherIcon"/>
 <entry id="8388616" module="true" symbol="Toybox_Communications"/>
 <entry field="true" id="8389380" symbol="OBSCURE_TOP"/>
 <entry field="true" id="8389201" symbol="MSG_ID_SEARCH_TIMEOUT"/>
@@ -284,7 +304,7 @@
 <entry id="8389188" method="true" symbol="fillRectangle"/>
 <entry id="8388729" object="true" symbol="Info"/>
 <entry id="8389628" method="true" symbol="getDrawable"/>
-<entry id="11" module="true" symbol="Layouts"/>
+<entry id="13" module="true" symbol="Layouts"/>
 <entry id="8388710" object="true" symbol="Stats"/>
 <entry field="true" id="8389632" symbol="CHANNEL_TYPE_RX_ONLY"/>
 <entry id="8389189" method="true" symbol="fillRoundedRectangle"/>
@@ -345,6 +365,7 @@
 <entry id="8388672" method="true" symbol="testLessThan"/>
 <entry id="8388824" method="true" symbol="transmit"/>
 <entry field="true" id="8389170" symbol="COLOR_PINK"/>
+<entry id="25" method="true" symbol="setErrorMessage"/>
 <entry id="7" module="true" symbol="globals_Rez_Strings"/>
 <entry id="8388884" object="true" symbol="GeometryIterator"/>
 <entry field="true" id="8389462" symbol="WEIGHT_SCALE_STATUS_CNT"/>
@@ -357,7 +378,7 @@
 <entry field="true" id="8389453" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_RESERVED"/>
 <entry id="8388621" module="true" symbol="Toybox_Time_Gregorian"/>
 <entry id="8389342" symbol="hours"/>
-<entry field="true" id="15" symbol="mfp_128"/>
+<entry field="true" id="17" symbol="mfp_128"/>
 <entry id="8389129" symbol="mJustification"/>
 <entry field="true" id="8388748" symbol="averageHeartRate"/>
 <entry id="8389568" method="true" symbol="runTest"/>
@@ -591,6 +612,7 @@
 <entry field="true" id="8388859" symbol="SUB_SPORT_DOWNHILL"/>
 <entry field="true" id="8388744" symbol="maxPower"/>
 <entry id="8388612" module="true" symbol="Toybox_Test"/>
+<entry id="10" object="true" symbol="MfpWidgetDelegate"/>
 <entry id="8389620" symbol="mConfirm"/>
 <entry field="true" id="8389411" symbol="BATT_STATUS_NEW"/>
 <entry id="8389028" object="true" symbol="MenuInputDelegate"/>
@@ -624,7 +646,7 @@
 <entry id="8389535" method="true" symbol="persistLocation"/>
 <entry id="8389094" method="true" symbol="setTitle"/>
 <entry field="true" id="8389562" symbol="KEY_CLOCK"/>
-<entry id="8" object="true" symbol="mfpconsumedcalorieswidgetApp"/>
+<entry id="9" object="true" symbol="mfpconsumedcalorieswidgetApp"/>
 <entry field="true" id="8389074" symbol="BEHAVIOR_ON_MENU"/>
 <entry id="8389052" object="true" symbol="FontResource"/>
 <entry id="8388765" object="true" symbol="Symbol"/>
@@ -646,6 +668,7 @@
 <entry field="true" id="8389197" symbol="MSG_ID_UNASSIGN_CHANNEL"/>
 <entry id="8389278" symbol="mPropertiesChanged"/>
 <entry field="true" id="8388970" symbol="TONE_ALERT_HI"/>
+<entry field="true" id="8" symbol="mfpWidget"/>
 <entry field="true" id="8389174" symbol="TEXT_JUSTIFY_LEFT"/>
 <entry id="8388923" method="true" symbol="today"/>
 <entry field="true" id="8389412" symbol="BATT_STATUS_GOOD"/>
@@ -691,6 +714,7 @@
 <entry id="8389477" symbol="mDeviceType"/>
 <entry id="8389242" symbol="dataHigh"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="22" method="true" symbol="fetchData"/>
 <entry field="true" id="8388843" symbol="SPORT_ALPINE_SKIING"/>
 <entry field="true" id="8389262" symbol="DEFAULT_DEVICE_NUMBER"/>
 <entry field="true" id="8389543" symbol="phoneConnected"/>
@@ -723,7 +747,7 @@
 <entry field="true" id="8389048" symbol="SLIDE_UP"/>
 <entry field="true" id="8388973" symbol="TONE_INTERVAL_ALERT"/>
 <entry id="8389298" object="true" symbol="Location"/>
-<entry field="true" id="14" symbol="mfp_large"/>
+<entry field="true" id="16" symbol="mfp_large"/>
 <entry field="true" id="8389523" symbol="swRevisionMain"/>
 <entry id="8388715" method="true" symbol="getSystemStats"/>
 <entry id="8389516" method="true" symbol="getPedalPowerBalance"/>
@@ -751,7 +775,8 @@
 <entry id="8389476" symbol="mDeviceNumber"/>
 <entry id="8388781" method="true" symbol="hashCode"/>
 <entry field="true" id="8389669" symbol="BUTTON_INPUT_MENU"/>
-<entry field="true" id="19" symbol="consumedCalories"/>
+<entry field="true" id="21" symbol="consumedCalories"/>
+<entry id="24" method="true" symbol="setMainText"/>
 <entry id="8389317" symbol="degrees"/>
 <entry field="true" id="8389640" symbol="networkKey128Bit"/>
 <entry id="8388636" module="true" symbol="Attention"/>
@@ -832,7 +857,7 @@
 <entry id="8389182" method="true" symbol="drawRoundedRectangle"/>
 <entry field="true" id="8389297" symbol="QUALITY_GOOD"/>
 <entry field="true" id="8389613" symbol="LAYOUT_HALIGN_CENTER"/>
-<entry id="17" method="true" symbol="MainLayout"/>
+<entry id="19" method="true" symbol="MainLayout"/>
 <entry field="true" id="8389472" symbol="rightTorqueEffectiveness"/>
 <entry field="true" id="8389228" symbol="MSG_CODE_EVENT_QUE_OVERFLOW"/>
 <entry field="true" id="8388832" symbol="SPORT_CYCLING"/>
@@ -918,7 +943,7 @@
 <entry field="true" id="8389639" symbol="networkKey64Bit"/>
 <entry id="8389179" method="true" symbol="drawEllipse"/>
 <entry field="true" id="8389379" symbol="OBSCURE_LEFT"/>
-<entry id="20" method="true" symbol="handleResponse"/>
+<entry id="23" method="true" symbol="handleResponse"/>
 <entry id="8388820" object="true" symbol="MailboxIterator"/>
 <entry field="true" id="8388917" symbol="FORMAT_SHORT"/>
 <entry field="true" id="8389664" symbol="SCREEN_SHAPE_SEMI_ROUND"/>
@@ -960,7 +985,7 @@
 <entry id="8388646" module="true" object="true" symbol="Timer"/>
 <entry id="8389517" method="true" symbol="getTorqueEfficiency"/>
 <entry field="true" id="8388806" symbol="BLE_QUEUE_FULL"/>
-<entry field="true" id="12" symbol="mfp_64"/>
+<entry field="true" id="14" symbol="mfp_64"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8389092" symbol="mSize"/>
 <entry field="true" id="8389067" symbol="height"/>
@@ -1013,7 +1038,7 @@
 <entry field="true" id="8388862" symbol="SUB_SPORT_HAND_CYCLING"/>
 <entry id="8389436" object="true" symbol="CalculatedWheelSpeed"/>
 <entry id="8388685" method="true" symbol="testLocationRadians"/>
-<entry id="9" object="true" symbol="mfpconsumedcalorieswidgetView"/>
+<entry id="11" object="true" symbol="mfpconsumedcalorieswidgetView"/>
 <entry field="true" id="8388990" symbol="KEY_POWER"/>
 <entry field="true" id="8388809" symbol="BLE_CONNECTION_UNAVAILABLE"/>
 <entry id="8389438" object="true" symbol="TorqueEfficiency"/>
@@ -1027,7 +1052,7 @@
 <entry field="true" id="8389036" symbol="NUMBER_PICKER_TIME_OF_DAY"/>
 <entry field="true" id="8389455" symbol="WEIGHT_SCALE_STATUS_DISABLED"/>
 <entry id="8389337" symbol="saturday"/>
-<entry field="true" id="16" symbol="mfp_32"/>
+<entry field="true" id="18" symbol="mfp_32"/>
 <entry id="8389513" method="true" symbol="getCalculatedTorque"/>
 <entry id="8389481" symbol="setListener"/>
 <entry field="true" id="8388975" symbol="TONE_RESET"/>
@@ -1105,10 +1130,13 @@
 <entry field="true" id="8389431" symbol="BIKE_POWER_SENSOR_TYPE_CNT"/>
 </symbolTable>
 <localVars>
-<entry endPc="268436383" name="rez_cmp_local_label_title" stackId="3" startPc="268435992"/>
-<entry endPc="268436383" name="rez_cmp_local_label_title_fontHeight" stackId="4" startPc="268435992"/>
-<entry endPc="268436383" name="rez_cmp_local_bitmap_mfp_64" stackId="5" startPc="268435992"/>
-<entry endPc="268436383" name="rez_cmp_local_label_title_font" stackId="2" startPc="268435992"/>
+<entry endPc="268436920" name="rez_cmp_local_label_errorMessage_fontHeight" stackId="8" startPc="268436328"/>
+<entry endPc="268436920" name="rez_cmp_local_label_errorMessage" stackId="7" startPc="268436328"/>
+<entry endPc="268436920" name="rez_cmp_local_label_mainText_fontHeight" stackId="4" startPc="268436328"/>
+<entry endPc="268436920" name="rez_cmp_local_label_mainText" stackId="3" startPc="268436328"/>
+<entry endPc="268436920" name="rez_cmp_local_label_errorMessage_font" stackId="6" startPc="268436328"/>
+<entry endPc="268436920" name="rez_cmp_local_bitmap_mfp_64" stackId="5" startPc="268436328"/>
+<entry endPc="268436920" name="rez_cmp_local_label_mainText_font" stackId="2" startPc="268436328"/>
 </localVars>
 <annotations/>
 <functions>
@@ -1121,12 +1149,19 @@
 <functionEntry name="getInitialView" parent="mfpconsumedcalorieswidgetApp">
 <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
 </functionEntry>
+<functionEntry name="onKey" parent="MfpWidgetDelegate">
+<param id="evt"/>
+<documentation/>
+</functionEntry>
 <functionEntry name="onLayout" parent="mfpconsumedcalorieswidgetView">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Load your resources here<br/></div>]]></documentation>
 </functionEntry>
 <functionEntry name="onShow" parent="mfpconsumedcalorieswidgetView">
 <documentation><![CDATA[<div class="description"> Called when this View is brought to the foreground. Restore<br/> the state of this View and prepare it to be shown. This includes<br/> loading resources into memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="fetchData" parent="mfpconsumedcalorieswidgetView">
+<documentation/>
 </functionEntry>
 <functionEntry name="onUpdate" parent="mfpconsumedcalorieswidgetView">
 <param id="dc"/>
@@ -1139,6 +1174,14 @@
 </functionEntry>
 <functionEntry name="onHide" parent="mfpconsumedcalorieswidgetView">
 <documentation><![CDATA[<div class="description"> Called when this View is removed from the screen. Save the<br/> state of this View here. This includes freeing resources from<br/> memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="setMainText" parent="mfpconsumedcalorieswidgetView">
+<param id="text"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="setErrorMessage" parent="mfpconsumedcalorieswidgetView">
+<param id="text"/>
+<documentation/>
 </functionEntry>
 <functionEntry name="MainLayout" parent="Layouts">
 <param id="dc"/>

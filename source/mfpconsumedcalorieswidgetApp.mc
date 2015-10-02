@@ -1,4 +1,7 @@
 using Toybox.Application as App;
+using Toybox.WatchUi as Ui;
+
+var mfpWidget;
 
 class mfpconsumedcalorieswidgetApp extends App.AppBase {
 
@@ -12,7 +15,18 @@ class mfpconsumedcalorieswidgetApp extends App.AppBase {
 
     //! Return the initial view of your application here
     function getInitialView() {
-        return [ new mfpconsumedcalorieswidgetView() ];
+    	mfpWidget = new mfpconsumedcalorieswidgetView();
+        return [ mfpWidget, new MfpWidgetDelegate() ];
     }
 
+}
+
+class MfpWidgetDelegate extends Ui.InputDelegate {
+    function onKey(evt) {
+        if (evt.getKey() == Ui.KEY_ENTER) {
+            mfpWidget.fetchData();
+            return true;
+        }
+        return false;
+    } 
 }

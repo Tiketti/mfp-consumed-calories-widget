@@ -14,28 +14,22 @@ class mfpconsumedcalorieswidgetView extends Ui.View {
     //! the state of this View and prepare it to be shown. This includes
     //! loading resources into memory.
     function onShow() {
+    	System.println("onShow() called.");    	
+		fetchData();
     }
-
+    
+	function fetchData() {
+		setMainText("Fetching...");
+		setErrorMessage("");
+		Comm.makeJsonRequest("https://dweet.io:443/get/latest/dweet/for/mfpconsumedandgoal", null, null, method(:handleResponse));
+	}
+	
     //! Update the view
     function onUpdate(dc) {
-    	
-    	//var logo = Ui.loadResource(Rez.Drawables.mfp_64);
-        //dc.drawBitmap(50, 20, logo);
-
-		//var logo = new Rez.Drawables.mfp_32;
-		//logo.Draw(dc);		
-        
-    	//dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_WHITE);
-    	
-    	if(consumedCalories == -1){
-    		View.findDrawableById("title").setText("Fetching...");
-    		Comm.makeJsonRequest("https://dweet.io:443/get/latest/dweet/for/mfpconsumedandgoal", null, null, method(:handleResponse));
-		} else {    
-    		View.findDrawableById("title").setText("Consumed calories: \n" + consumedCalories);
-		}
+    	System.println("onUpdate function called.");    	
     	
         // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);    	
+        View.onUpdate(dc);
     }
     
     function handleResponse(responseCode, data) {
@@ -47,11 +41,11 @@ class mfpconsumedcalorieswidgetView extends Ui.View {
 	    	System.println("data.content.consumed: " + data["with"][0]["content"]["consumed"]);
 	    	
 	    	consumedCalories = data["with"][0]["content"]["consumed"];
-	    	
-	    	Ui.requestUpdate();
-	    	
+	    	setMainText("Consumed calories: \n" + consumedCalories);
     	} else {
-    		// handle error
+    		System.println("Entered error handling.");
+			setMainText("");
+			setErrorMessage("Error: " + responseCode + "\npress [START] to retry.");
     	}	
     }
 
@@ -59,6 +53,18 @@ class mfpconsumedcalorieswidgetView extends Ui.View {
     //! state of this View here. This includes freeing resources from
     //! memory.
     function onHide() {
+    }
+    
+    function setMainText(text) {
+    	System.println("Setting main text: '" + text  + "'");
+    	View.findDrawableById("mainText").setText(text);
+    	Ui.requestUpdate();
+    }
+    
+    function setErrorMessage(text) {
+    	System.println("Setting error message: '" + text  + "'");
+    	View.findDrawableById("errorMessage").setText(text);
+    	Ui.requestUpdate();
     }
 
 }

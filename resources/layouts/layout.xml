@@ -1,5 +1,6 @@
 <layout id="MainLayout">
-    <label id="title" x="center" y="center" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_BLUE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="mainText" x="center" y="center" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_BLUE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
    	<!-- <bitmap id="mfp_32" x="center" y="50" filename="../images/mfp_32.png" />-->
-   	<bitmap id="mfp_64" x="center" y="22" filename="../images/mfp_64.png" /> 
+   	<bitmap id="mfp_64" x="center" y="22" filename="../images/mfp_64.png" />
+   	<label id="errorMessage" x="center" y="100" font="Gfx.FONT_TINY" color="Gfx.COLOR_BLUE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 </layout>

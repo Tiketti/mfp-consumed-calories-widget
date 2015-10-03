@@ -44,7 +44,7 @@ class mfpconsumedcalorieswidgetView extends Ui.View {
 	    	setMainText("Consumed calories: \n" + consumedCalories);
     	} else if (responseCode == -104) {
 			setMainText("");
-			setErrorMessage("Bluetooth connection unavailable.\npress [START] to retry.");
+			setErrorMessage("No Bluetooth connection.\npress [START] to retry.");
     	} else {
 			setMainText("");
 			setErrorMessage("Error: " + responseCode + "\npress [START] to retry.");

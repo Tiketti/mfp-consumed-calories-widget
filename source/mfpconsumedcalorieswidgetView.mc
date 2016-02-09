@@ -41,7 +41,7 @@ class mfpconsumedcalorieswidgetView extends Ui.View {
 	    	System.println("data.content.consumed: " + data["with"][0]["content"]["consumed"]);
 	    	
 	    	consumedCalories = data["with"][0]["content"]["consumed"];
-	    	setMainText("Consumed calories: \n" + consumedCalories);
+	    	setMainText("Consumed calories: \n" + consumedCalories.toNumber());
     	} else if (responseCode == -104) {
 			setMainText("");
 			setErrorMessage("No Bluetooth connection.\npress [START] to retry.");
